@@ -9,4 +9,5 @@ export interface Court {
     status: 'active' | 'maintenance' | 'inactive';
     description?: string;
     price_per_hour?: number;
+    sport?: string;
 }
